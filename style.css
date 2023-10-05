@@ -583,10 +583,6 @@ nav.nav_scroll .nav_list>li:hover {
   justify-content: center;
 }
 
-.building_3-bottom .video {
-  /* width: 100%;
-     */
-}
 
 .building_3-bottom video {
   width: 100%;
@@ -1182,8 +1178,9 @@ nav.nav_scroll .nav_list>li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
+  mix-blend-mode: difference;
 }
+
 
 .container-div .leftSide {
   width: calc(100% - 65%);
@@ -1201,23 +1198,6 @@ nav.nav_scroll .nav_list>li:hover {
   font-weight: 900;
   mix-blend-mode: difference;
   text-align: center;
-}
-
-.contact-us button {
-  padding: 1rem 2rem;
-  margin: 5%;
-  font-size: 1.5rem;
-  border-radius: 50px;
-  color: #fff;
-  font-weight: 500;
-  background-color: var(--clr-teal-primary);
-  transition: .4s ease all;
-  border: none;
-}
-
-.contact-us button:hover {
-  cursor: pointer;
-  opacity: .75;
 }
 
 .contact-us h4 {
@@ -1241,9 +1221,7 @@ nav.nav_scroll .nav_list>li:hover {
   width: 75%;
   background-color: transparent;
   margin: auto;
-  /* border: 2px solid rgba(255, 255, 255, 0.562); */
   border-radius: 10px;
-  mix-blend-mode: difference;
 }
 
 .main-container form {
@@ -1288,7 +1266,7 @@ textarea {
   width: 100%;
   font-size: 1rem;
   height: 3.2rem;
-
+  transition: all .5s ease;
 }
 
 [type="submit"]:hover {
