@@ -1240,12 +1240,13 @@ nav.nav_scroll .nav_list>li:hover {
   padding: 13px;
   margin-bottom: 15px;
   transition: all 0.3s;
-
+  border-radius: 5px;
 }
 
 .feedback-input:focus {
   border: none;
   border-bottom: 1px solid #fff;
+  border-radius: 25px;
 }
 
 textarea {
