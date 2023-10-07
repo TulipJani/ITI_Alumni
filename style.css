@@ -47,7 +47,7 @@ body {
   margin: 0 auto;
 }
 
-.container a {
+.container>a {
   font-size: 2rem;
   font-weight: 900;
 }
@@ -195,11 +195,19 @@ nav.nav_scroll .nav_list>li:hover {
 .nav_btns {
   display: flex;
   gap: 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav_btns>a {
+  font-size: 12px;
+  padding-top: calc(2.2rem / 5);
 }
 
 /* hero section */
 .hero {
   padding: 7rem 0 2rem 0;
+  background-color: var(--clr-black);
 }
 
 .hero_top {
